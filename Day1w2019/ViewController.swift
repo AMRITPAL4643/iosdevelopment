@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var AmritlblMessage: UILabel!
+    @IBOutlet weak var HellolblMessage: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        AmritlblMessage.text = "Hello World!"
     }
 
 
