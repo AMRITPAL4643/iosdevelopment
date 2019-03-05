@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         AmritlblMessage.text = "Hello World!"
     }
 
-
+    @IBAction func Buttonsubitclick(_ sender: UIButton) {
+        AmritlblMessage.text = " i am in touch button"
+    }
+    
 }
 
